@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        tools:context="com.example.py7.myapplication.RecipeActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recipe Name"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+    <EditText
+            android:id="@+id/txName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Recipe Name"
+            android:inputType="textCapSentences"
+            android:layout_marginBottom="10dp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingredients"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+    <EditText
+            android:id="@+id/txIng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingredients"
+            android:inputType="textCapSentences"
+            android:layout_marginBottom="10dp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+    <EditText
+            android:id="@+id/txStep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Step"
+            android:inputType="textCapSentences"
+            android:layout_marginBottom="10dp" />
+
+</LinearLayout>
